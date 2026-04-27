@@ -1,3 +1,5 @@
+// AST: defines the Expr and Stmt node types for the Abstract Syntax Tree
+
 // ── AST ──────────────────────────────────────────────────────────────
 #[derive(Debug, Clone)]
 pub enum Expr {

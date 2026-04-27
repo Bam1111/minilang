@@ -1,3 +1,5 @@
+// Parser: recursive descent parser that builds an AST from a token stream
+
 use crate::lexer::Token;
 use crate::ast::{Expr, Stmt};
 

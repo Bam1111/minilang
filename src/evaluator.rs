@@ -1,3 +1,5 @@
+// Evaluator: tree-walking interpreter that executes MiniLang programs
+
 use std::collections::HashMap;
 use crate::ast::{Expr, Stmt};
 

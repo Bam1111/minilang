@@ -1,3 +1,5 @@
+// MiniLang: entry point — reads a .ml file and runs it through the pipeline
+
 mod lexer;
 mod ast;
 mod parser;

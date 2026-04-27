@@ -1,3 +1,5 @@
+// Lexer: converts raw MiniLang source text into a stream of tokens
+
 #[derive(Debug, PartialEq, Clone)]
 pub enum Token {
     Number(f64), StringLit(String), Ident(String),
